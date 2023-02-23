@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BaiTap 16</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+     <h1>Travel reservation form</h1>
+     <p><b>* denotes mandotory</b></p>
+            Full name*:<br>
+        <div><input type="text" id ="name" name="txtName" placeholder="FirstName LastName" value="" size="20" maxlength="20"></div>
+        Email address*:<br>
+        <div>
+            <input type="email" id="mail" name="txtEmail"placeholder="EMAIL_ADDRESS" size="20" maxlength="20">
+        </div>     
+        Select Tour Pacakge*:<br>
+        <div>
+            <select name="test" id="test">
+                <option value="Goe">Goe</option>
+                <option value="Vip">Vip</option>
+                <option value="Normal">Normal</option>            
+            </select>
+        </div>
+
+        Arrival date:*<br>
+
+        <div>
+            <input type="text" id="date" placeholder="m/d/y"  size="20" maxlength="20">
+        </div>
+
+        Number of person*:<br>
+ 
+        <div>
+            <input type="text" id="text" placeholder="UNKNOWN-TYPE" size="20"maxlength="20">
+        </div>
+        What would you want to avail?*<br>
+        <div>Boarding<input type="checkbox" id="checkbox" size="5"></div>
+        <div>Fooding<input type="checkbox" id="checkbox" size="5"></div>
+        <div>Sight seeing <input type="checkbox" id="cb" size="5"></div>
+        Discout Coupon code:<br>
+        <div><input type="text" id="text" name="textarea" size="20" maxlength="20"placeholder="UNKNOWN_TYPE"></div>
+        Terms and condition*<br>
+        <input type="radio"> I agree <input type="radio"> I disagree<br>
+        <input type="submit" value="Complete reservation">
+    </body>
+</html>
